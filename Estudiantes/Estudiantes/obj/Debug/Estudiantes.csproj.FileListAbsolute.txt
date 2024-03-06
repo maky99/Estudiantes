@@ -8,3 +8,13 @@ D:\Proyecto c++\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.CoreCompile
 D:\Proyecto c++\Estudiantes\Estudiantes\obj\Debug\Estudiantes.exe
 D:\Proyecto c++\Estudiantes\Estudiantes\obj\Debug\Estudiantes.pdb
 D:\Proyecto c++\Estudiantes\Estudiantes\obj\Debug\Estudiantes.Form1.resources
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\bin\Debug\Estudiantes.exe.config
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\bin\Debug\Estudiantes.exe
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\bin\Debug\Estudiantes.pdb
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.AssemblyReference.cache
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\obj\Debug\Estudiantes.Form1.resources
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\obj\Debug\Estudiantes.Properties.Resources.resources
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.GenerateResource.cache
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.CoreCompileInputs.cache
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\obj\Debug\Estudiantes.exe
+C:\Users\MAKY\Documents\GitHub\Estudiantes\Estudiantes\Estudiantes\obj\Debug\Estudiantes.pdb
