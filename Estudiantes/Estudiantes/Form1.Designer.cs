@@ -29,36 +29,36 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonBorrar = new System.Windows.Forms.Button();
+            this.buttonAgregar = new System.Windows.Forms.Button();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBoxApellido = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelEmail = new System.Windows.Forms.Label();
+            this.labelDni = new System.Windows.Forms.Label();
+            this.labelApellido = new System.Windows.Forms.Label();
+            this.labelNombre = new System.Windows.Forms.Label();
             this.textBoxDni = new System.Windows.Forms.TextBox();
             this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.pictureBoxImagen = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.textBoxBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.buttonBorrar = new System.Windows.Forms.Button();
-            this.buttonAgregar = new System.Windows.Forms.Button();
-            this.pictureBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagen)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -73,6 +73,16 @@
             this.groupBox1.Size = new System.Drawing.Size(727, 87);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Estudiantes.Properties.Resources.estudiantes;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(149, 68);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -98,10 +108,10 @@
             this.groupBox2.Controls.Add(this.buttonAgregar);
             this.groupBox2.Controls.Add(this.textBoxEmail);
             this.groupBox2.Controls.Add(this.textBoxApellido);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.labelEmail);
+            this.groupBox2.Controls.Add(this.labelDni);
+            this.groupBox2.Controls.Add(this.labelApellido);
+            this.groupBox2.Controls.Add(this.labelNombre);
             this.groupBox2.Controls.Add(this.textBoxDni);
             this.groupBox2.Controls.Add(this.textBoxNombre);
             this.groupBox2.Controls.Add(this.groupBox5);
@@ -111,6 +121,71 @@
             this.groupBox2.Size = new System.Drawing.Size(335, 299);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_right_white_24dp;
+            this.button2.Location = new System.Drawing.Point(202, 252);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(46, 32);
+            this.button2.TabIndex = 16;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_left_white_24dp;
+            this.button1.Location = new System.Drawing.Point(150, 252);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(46, 32);
+            this.button1.TabIndex = 15;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // buttonBorrar
+            // 
+            this.buttonBorrar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonBorrar.FlatAppearance.BorderSize = 0;
+            this.buttonBorrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonBorrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonBorrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonBorrar.Image = global::Estudiantes.Properties.Resources.outline_highlight_off_white_24dp;
+            this.buttonBorrar.Location = new System.Drawing.Point(89, 252);
+            this.buttonBorrar.Name = "buttonBorrar";
+            this.buttonBorrar.Size = new System.Drawing.Size(46, 32);
+            this.buttonBorrar.TabIndex = 6;
+            this.buttonBorrar.UseVisualStyleBackColor = false;
+            // 
+            // buttonAgregar
+            // 
+            this.buttonAgregar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonAgregar.FlatAppearance.BorderSize = 0;
+            this.buttonAgregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAgregar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonAgregar.Image = global::Estudiantes.Properties.Resources.outline_perm_identity_white_24dp;
+            this.buttonAgregar.Location = new System.Drawing.Point(26, 252);
+            this.buttonAgregar.Name = "buttonAgregar";
+            this.buttonAgregar.Size = new System.Drawing.Size(46, 32);
+            this.buttonAgregar.TabIndex = 5;
+            this.buttonAgregar.UseVisualStyleBackColor = false;
             // 
             // textBoxEmail
             // 
@@ -119,6 +194,8 @@
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(143, 22);
             this.textBoxEmail.TabIndex = 4;
+            this.textBoxEmail.TextChanged += new System.EventHandler(this.textBoxEmail_TextChanged);
+            this.textBoxEmail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxEmail_KeyPress);
             // 
             // textBoxApellido
             // 
@@ -127,51 +204,53 @@
             this.textBoxApellido.Name = "textBoxApellido";
             this.textBoxApellido.Size = new System.Drawing.Size(143, 22);
             this.textBoxApellido.TabIndex = 2;
+            this.textBoxApellido.TextChanged += new System.EventHandler(this.textBoxApellido_TextChanged);
+            this.textBoxApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxApellido_KeyPress);
             // 
-            // label8
+            // labelEmail
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.SkyBlue;
-            this.label8.Location = new System.Drawing.Point(167, 177);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(42, 19);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Email";
+            this.labelEmail.AutoSize = true;
+            this.labelEmail.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEmail.ForeColor = System.Drawing.Color.SkyBlue;
+            this.labelEmail.Location = new System.Drawing.Point(167, 177);
+            this.labelEmail.Name = "labelEmail";
+            this.labelEmail.Size = new System.Drawing.Size(42, 19);
+            this.labelEmail.TabIndex = 11;
+            this.labelEmail.Text = "Email";
             // 
-            // label7
+            // labelDni
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.SkyBlue;
-            this.label7.Location = new System.Drawing.Point(11, 130);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(29, 19);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Dni";
+            this.labelDni.AutoSize = true;
+            this.labelDni.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDni.ForeColor = System.Drawing.Color.SkyBlue;
+            this.labelDni.Location = new System.Drawing.Point(11, 130);
+            this.labelDni.Name = "labelDni";
+            this.labelDni.Size = new System.Drawing.Size(29, 19);
+            this.labelDni.TabIndex = 9;
+            this.labelDni.Text = "Dni";
             // 
-            // label6
+            // labelApellido
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.SkyBlue;
-            this.label6.Location = new System.Drawing.Point(167, 130);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 19);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Apellido";
+            this.labelApellido.AutoSize = true;
+            this.labelApellido.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelApellido.ForeColor = System.Drawing.Color.SkyBlue;
+            this.labelApellido.Location = new System.Drawing.Point(167, 130);
+            this.labelApellido.Name = "labelApellido";
+            this.labelApellido.Size = new System.Drawing.Size(60, 19);
+            this.labelApellido.TabIndex = 7;
+            this.labelApellido.Text = "Apellido";
             // 
-            // label5
+            // labelNombre
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.SkyBlue;
-            this.label5.Location = new System.Drawing.Point(14, 176);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 19);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Nombre";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.labelNombre.AutoSize = true;
+            this.labelNombre.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNombre.ForeColor = System.Drawing.Color.SkyBlue;
+            this.labelNombre.Location = new System.Drawing.Point(14, 176);
+            this.labelNombre.Name = "labelNombre";
+            this.labelNombre.Size = new System.Drawing.Size(58, 19);
+            this.labelNombre.TabIndex = 6;
+            this.labelNombre.Text = "Nombre";
+            this.labelNombre.Click += new System.EventHandler(this.label5_Click);
             // 
             // textBoxDni
             // 
@@ -180,6 +259,8 @@
             this.textBoxDni.Name = "textBoxDni";
             this.textBoxDni.Size = new System.Drawing.Size(143, 22);
             this.textBoxDni.TabIndex = 1;
+            this.textBoxDni.TextChanged += new System.EventHandler(this.textBoxDni_TextChanged);
+            this.textBoxDni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDni_KeyPress);
             // 
             // textBoxNombre
             // 
@@ -188,15 +269,30 @@
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(140, 22);
             this.textBoxNombre.TabIndex = 3;
+            this.textBoxNombre.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
+            this.textBoxNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNombre_KeyPress);
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.pictureBox);
+            this.groupBox5.Controls.Add(this.pictureBoxImagen);
             this.groupBox5.Location = new System.Drawing.Point(89, 33);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(120, 94);
             this.groupBox5.TabIndex = 0;
             this.groupBox5.TabStop = false;
+            // 
+            // pictureBoxImagen
+            // 
+            this.pictureBoxImagen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxImagen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxImagen.Image = global::Estudiantes.Properties.Resources.foto_perfil;
+            this.pictureBoxImagen.Location = new System.Drawing.Point(5, 10);
+            this.pictureBoxImagen.Name = "pictureBoxImagen";
+            this.pictureBoxImagen.Size = new System.Drawing.Size(110, 80);
+            this.pictureBoxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxImagen.TabIndex = 17;
+            this.pictureBoxImagen.TabStop = false;
+            this.pictureBoxImagen.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // label3
             // 
@@ -269,92 +365,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Buscar";
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_right_white_24dp;
-            this.button2.Location = new System.Drawing.Point(202, 252);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(46, 32);
-            this.button2.TabIndex = 16;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_left_white_24dp;
-            this.button1.Location = new System.Drawing.Point(150, 252);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(46, 32);
-            this.button1.TabIndex = 15;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // buttonBorrar
-            // 
-            this.buttonBorrar.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonBorrar.FlatAppearance.BorderSize = 0;
-            this.buttonBorrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonBorrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonBorrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonBorrar.Image = global::Estudiantes.Properties.Resources.outline_highlight_off_white_24dp;
-            this.buttonBorrar.Location = new System.Drawing.Point(89, 252);
-            this.buttonBorrar.Name = "buttonBorrar";
-            this.buttonBorrar.Size = new System.Drawing.Size(46, 32);
-            this.buttonBorrar.TabIndex = 6;
-            this.buttonBorrar.UseVisualStyleBackColor = false;
-            // 
-            // buttonAgregar
-            // 
-            this.buttonAgregar.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonAgregar.FlatAppearance.BorderSize = 0;
-            this.buttonAgregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAgregar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonAgregar.Image = global::Estudiantes.Properties.Resources.outline_perm_identity_white_24dp;
-            this.buttonAgregar.Location = new System.Drawing.Point(26, 252);
-            this.buttonAgregar.Name = "buttonAgregar";
-            this.buttonAgregar.Size = new System.Drawing.Size(46, 32);
-            this.buttonAgregar.TabIndex = 5;
-            this.buttonAgregar.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox
-            // 
-            this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox.Image = global::Estudiantes.Properties.Resources.foto_perfil;
-            this.pictureBox.Location = new System.Drawing.Point(5, 10);
-            this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(110, 80);
-            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox.TabIndex = 17;
-            this.pictureBox.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Estudiantes.Properties.Resources.estudiantes;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 68);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -373,15 +383,15 @@
             this.Text = "Sistema de estudiantes";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagen)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -398,19 +408,19 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxBuscar;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelNombre;
         private System.Windows.Forms.TextBox textBoxDni;
         private System.Windows.Forms.TextBox textBoxNombre;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelDni;
+        private System.Windows.Forms.Label labelApellido;
         private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.TextBox textBoxApellido;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelEmail;
         private System.Windows.Forms.Button buttonAgregar;
         private System.Windows.Forms.Button buttonBorrar;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.PictureBox pictureBoxImagen;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

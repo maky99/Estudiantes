@@ -102,5 +102,11 @@
   <ItemGroup>
     <None Include="Resources\estudiantes.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica\Logica.csproj">
+      <Project>{e8c3171f-f688-4fe2-ac69-6e0f0904cffc}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
