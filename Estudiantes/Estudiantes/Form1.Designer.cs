@@ -186,6 +186,7 @@
             this.buttonAgregar.Size = new System.Drawing.Size(46, 32);
             this.buttonAgregar.TabIndex = 5;
             this.buttonAgregar.UseVisualStyleBackColor = false;
+            this.buttonAgregar.Click += new System.EventHandler(this.buttonAgregar_Click);
             // 
             // textBoxEmail
             // 

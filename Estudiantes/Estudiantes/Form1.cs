@@ -1,5 +1,6 @@
 ﻿using Logica;
 using Logica.Librery;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,10 +21,15 @@ namespace Estudiantes
             InitializeComponent();
             var listTexBox = new List<TextBox>();
             listTexBox.Add(textBoxDni);
-            listTexBox.Add(textBoxNombre);
             listTexBox.Add(textBoxApellido);
+            listTexBox.Add(textBoxNombre);
             listTexBox.Add(textBoxEmail);
-            estudiante = new LEstudiantes(listTexBox);
+            var listlabel = new List<Label>();
+            listlabel.Add(labelDni);
+            listlabel.Add(labelApellido);
+            listlabel.Add(labelNombre);
+            listlabel.Add(labelEmail);
+            estudiante = new LEstudiantes(listTexBox,listlabel);
 
 
 
@@ -108,6 +114,21 @@ namespace Estudiantes
             estudiante.textBoxEvent.textKeyPress(e);
         }
 
+
+        private void textBoxEmail_KeyPress(object sender, KeyPressEventArgs e)
+        {
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAgregar_Click(object sender, EventArgs e)
+        {
+            estudiante.Registrar();
+        }
+
         private void textBoxEmail_TextChanged(object sender, EventArgs e)
         {
             if (textBoxEmail.Text.Equals(""))
@@ -120,15 +141,6 @@ namespace Estudiantes
                 labelEmail.ForeColor = Color.Green;
                 labelEmail.Text = "Email";
             }
-        }
-
-        private void textBoxEmail_KeyPress(object sender, KeyPressEventArgs e)
-        {
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }
