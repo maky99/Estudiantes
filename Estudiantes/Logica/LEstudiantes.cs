@@ -49,9 +49,22 @@ namespace Logica
                             listlabel[3].ForeColor = Color.Red;
                             listTexBox[3].Focus();
                         }
+                        //else
+                        //no puede validar el mail
+                        //{
+                        //    if (textBoxEvent.comprobarFormatoEmail(listlabel[3].Text)) 
+                        //    { 
+                        //    }
+                        //    else
+                        //    {
+                        //        listlabel[3].Text = "Email *o";
+                        //        listlabel[3].ForeColor = Color.Red;
+                        //        listTexBox[3].Focus();
+                        //    }
+                        }
                     }
                 }
             }            
         }
     }
-}
+

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LEstudiantes.cs" />
+    <Compile Include="Librery\EmailAddressAttribute.cs" />
     <Compile Include="Librery\Libreria.cs" />
     <Compile Include="Librery\textBoxEvent.cs" />
     <Compile Include="Librery\Uploadimages.cs" />
