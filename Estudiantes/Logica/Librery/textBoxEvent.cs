@@ -57,10 +57,10 @@ namespace Logica.Librery
             }
             else { e.Handled = true; }
         }
-        //public bool comprobarFormatoEmail(string email)
-        //{
-        //    return new EmailAddressAttribute().IsValid(email);
-        //}
+        public bool comprobarFormatoEmail(string email)
+        {
+            return new EmailAddressAttribute().IsValid(email);
+        }
 
     }
 }
