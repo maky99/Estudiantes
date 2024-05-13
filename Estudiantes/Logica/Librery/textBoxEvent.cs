@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
+
+
 
 namespace Logica.Librery
 {
@@ -57,9 +56,25 @@ namespace Logica.Librery
             }
             else { e.Handled = true; }
         }
+        //no me fucniona el comprobar el metodo del mail
         public bool comprobarFormatoEmail(string email)
         {
-            return new EmailAddressAttribute().IsValid(email);
+            string emailFormato = @"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$";
+            if (Regex.IsMatch(email, emailFormato))
+            {
+                if (Regex.Replace(email, emailFormato, String.Empty).Length == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }

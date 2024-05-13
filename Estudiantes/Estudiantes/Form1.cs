@@ -16,9 +16,13 @@ namespace Estudiantes
     public partial class Form1 : Form
     {
         private LEstudiantes estudiante;
+        //private Libreria libreria;
+
         public Form1()
         {
             InitializeComponent();
+            //libreria = new Libreria();
+
             var listTexBox = new List<TextBox>();
             listTexBox.Add(textBoxDni);
             listTexBox.Add(textBoxApellido);
@@ -29,7 +33,9 @@ namespace Estudiantes
             listlabel.Add(labelApellido);
             listlabel.Add(labelNombre);
             listlabel.Add(labelEmail);
-            estudiante = new LEstudiantes(listTexBox,listlabel);
+            listlabel.Add(labelPaginas);
+            Object[] objectos = { pictureBoxImagen, Properties.Resources.estudiantes, dataGridView1, numericUpDown1 };
+            estudiante = new LEstudiantes(listTexBox,listlabel, objectos);
 
 
 
@@ -141,6 +147,36 @@ namespace Estudiantes
                 labelEmail.ForeColor = Color.Green;
                 labelEmail.Text = "Email";
             }
+        }
+
+        private void textBoxBuscar_TextChanged(object sender, EventArgs e)
+        {
+            estudiante.searchEstudiante(textBoxBuscar.Text);
+        }
+
+        private void buttonInicio_Click(object sender, EventArgs e)
+        {
+            estudiante.Paginador("Primero");
+        }
+
+        private void buttonAnt_Click(object sender, EventArgs e)
+        {
+            estudiante.Paginador("Anterior");
+        }
+
+        private void buttonSig_Click(object sender, EventArgs e)
+        {
+            estudiante.Paginador("Siguiente");
+        }
+
+        private void buttonFin_Click(object sender, EventArgs e)
+        {
+            estudiante.Paginador("Ultimo");
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            estudiante.Registro_paginas();
         }
     }
 }
