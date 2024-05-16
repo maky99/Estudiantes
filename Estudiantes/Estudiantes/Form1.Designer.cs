@@ -305,7 +305,7 @@
             this.pictureBoxImagen.Location = new System.Drawing.Point(5, 10);
             this.pictureBoxImagen.Name = "pictureBoxImagen";
             this.pictureBoxImagen.Size = new System.Drawing.Size(110, 80);
-            this.pictureBoxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxImagen.TabIndex = 17;
             this.pictureBoxImagen.TabStop = false;
             this.pictureBoxImagen.Click += new System.EventHandler(this.pictureBox_Click);
@@ -514,6 +514,8 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(530, 300);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.dataGridView1_KeyUp);
             // 
             // label4
             // 

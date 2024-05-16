@@ -178,5 +178,19 @@ namespace Estudiantes
         {
             estudiante.Registro_paginas();
         }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dataGridView1.Rows.Count!=0)
+                estudiante.GetEstudiante();
+            
+        }
+
+        private void dataGridView1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (dataGridView1.Rows.Count != 0)
+                estudiante.GetEstudiante();
+
+        }
     }
 }

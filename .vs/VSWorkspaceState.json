@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Estudiantes",
+    "\\Estudiantes\\Estudiantes",
     "\\Estudiantes\\Logica",
     "\\Estudiantes\\Logica\\Librery"
   ],
-  "SelectedNode": "\\Estudiantes\\Logica\\LEstudiantes.cs",
+  "SelectedNode": "\\Estudiantes\\Estudiantes\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

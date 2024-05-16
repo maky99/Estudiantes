@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|d:\\githubdiscomaky\\estudiantes\\estudiantes\\logica\\lestudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:logica\\lestudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\LEstudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:Logica\\LEstudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\estudiantes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|d:\\githubdiscomaky\\estudiantes\\estudiantes\\estudiantes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|solutionrelative:estudiantes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\estudiantes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|solutionrelative:estudiantes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Estudiantes\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|solutionrelative:Estudiantes\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{640D29BF-1EDB-4DF8-B9FB-39F7D074ACB4}|Data\\Data.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\data\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{640D29BF-1EDB-4DF8-B9FB-39F7D074ACB4}|Data\\Data.csproj|solutionrelative:data\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|d:\\githubdiscomaky\\estudiantes\\estudiantes\\logica\\librery\\uploadimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:logica\\librery\\uploadimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\logica\\librery\\paginador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:logica\\librery\\paginador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{640D29BF-1EDB-4DF8-B9FB-39F7D074ACB4}|Data\\Data.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Data\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640D29BF-1EDB-4DF8-B9FB-39F7D074ACB4}|Data\\Data.csproj|solutionrelative:Data\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{640D29BF-1EDB-4DF8-B9FB-39F7D074ACB4}|Data\\Data.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{640D29BF-1EDB-4DF8-B9FB-39F7D074ACB4}|Data\\Data.csproj|solutionrelative:data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\Librery\\Libreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:Logica\\Librery\\Libreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\logica\\librery\\libreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:logica\\librery\\libreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\Librery\\textBoxEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:Logica\\Librery\\textBoxEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\estudiantes\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F83F04FB-B0FC-4A41-94EC-706AD614B968}|Estudiantes\\Estudiantes.csproj|solutionrelative:estudiantes\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{640D29BF-1EDB-4DF8-B9FB-39F7D074ACB4}|Data\\Data.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Data\\Estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640D29BF-1EDB-4DF8-B9FB-39F7D074ACB4}|Data\\Data.csproj|solutionrelative:Data\\Estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\logica\\librery\\textboxevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:logica\\librery\\textboxevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\Librery\\Paginador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C3171F-F688-4FE2-AC69-6E0F0904CFFC}|Logica\\Logica.csproj|solutionrelative:Logica\\Librery\\Paginador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1366,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Uploadimages.cs",
+              "DocumentMoniker": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\Librery\\Uploadimages.cs",
+              "RelativeDocumentMoniker": "Logica\\Librery\\Uploadimages.cs",
+              "ToolTip": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\Librery\\Uploadimages.cs",
+              "RelativeToolTip": "Logica\\Librery\\Uploadimages.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:34:59.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Paginador.cs",
               "DocumentMoniker": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\Librery\\Paginador.cs",
               "RelativeDocumentMoniker": "Logica\\Librery\\Paginador.cs",
@@ -68,7 +81,7 @@
               "RelativeDocumentMoniker": "Logica\\LEstudiantes.cs",
               "ToolTip": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\LEstudiantes.cs",
               "RelativeToolTip": "Logica\\LEstudiantes.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAwwHYAAAARAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAADwv4EAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T18:54:58.496Z",
               "EditorCaption": ""
@@ -81,25 +94,14 @@
               "RelativeDocumentMoniker": "Estudiantes\\Form1.cs",
               "ToolTip": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Estudiantes\\Form1.cs",
               "RelativeToolTip": "Estudiantes\\Form1.cs",
-              "ViewState": "AQIAAKgAAAAAAAAAAAAgwLMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-05-13T18:54:58.742Z"
+              "ViewState": "AQIAAKUAAAAAAAAAAAAqwL8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:54:58.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Estudiantes\\App.config",
-              "RelativeDocumentMoniker": "Estudiantes\\App.config",
-              "ToolTip": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Estudiantes\\App.config",
-              "RelativeToolTip": "Estudiantes\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-13T18:54:58.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Conexion.cs",
               "DocumentMoniker": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Data\\Conexion.cs",
               "RelativeDocumentMoniker": "Data\\Conexion.cs",
@@ -107,7 +109,8 @@
               "RelativeToolTip": "Data\\Conexion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T18:54:58.744Z"
+              "WhenOpened": "2024-05-13T18:54:58.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -115,13 +118,15 @@
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Estudiantes\\Form1.cs",
               "RelativeDocumentMoniker": "Estudiantes\\Form1.cs",
-              "ToolTip": "C:\\Users\\MAKY\\Documents\\GitHub\\Estudiantes\\Estudiantes\\Estudiantes\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-05-13T18:54:58.745Z"
+              "ToolTip": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Estudiantes\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Estudiantes\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:54:58.745Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Libreria.cs",
               "DocumentMoniker": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\Librery\\Libreria.cs",
               "RelativeDocumentMoniker": "Logica\\Librery\\Libreria.cs",
@@ -129,11 +134,12 @@
               "RelativeToolTip": "Logica\\Librery\\Libreria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAowBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T18:54:58.746Z"
+              "WhenOpened": "2024-05-13T18:54:58.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "textBoxEvent.cs",
               "DocumentMoniker": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Logica\\Librery\\textBoxEvent.cs",
               "RelativeDocumentMoniker": "Logica\\Librery\\textBoxEvent.cs",
@@ -141,11 +147,12 @@
               "RelativeToolTip": "Logica\\Librery\\textBoxEvent.cs",
               "ViewState": "AQIAADUAAAAAAAAAAAAMwD4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T18:54:58.746Z"
+              "WhenOpened": "2024-05-13T18:54:58.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "D:\\GitHubDiscoMaky\\Estudiantes\\Estudiantes\\Data\\Estudiante.cs",
               "RelativeDocumentMoniker": "Data\\Estudiante.cs",
@@ -153,7 +160,18 @@
               "RelativeToolTip": "Data\\Estudiante.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T18:54:58.747Z"
+              "WhenOpened": "2024-05-13T18:54:58.747Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 434,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         },

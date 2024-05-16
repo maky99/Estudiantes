@@ -7,6 +7,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,6 +23,7 @@ namespace Logica
         private DataGridView dataGridView;
         private NumericUpDown numericUpDown;
         private Paginador<Estudiante> paginador;
+        private string accion = "insertar";
         //private Libreria libreria;
 
         public LEstudiantes(List<TextBox> listTexBox, List<Label> listlabel, object[] objectos)
@@ -81,9 +83,16 @@ namespace Logica
                                         Save();
                                     }
                                     else {
-                                        listlabel[3].Text = "Email *Ya registrado";
-                                        listlabel[3].ForeColor = Color.Red;
-                                        listTexBox[3].Focus();
+                                        if (user[0].id.Equals(idEstudiante))
+                                        {
+                                            Save();
+                                        }
+                                        else
+                                        {
+                                            listlabel[3].Text = "Email *Ya registrado";
+                                            listlabel[3].ForeColor = Color.Red;
+                                            listTexBox[3].Focus();
+                                        }
                                     }                                    
                                 }
                             }
@@ -106,14 +115,47 @@ namespace Logica
                 var imageArray = uploadimage.ImageToByte(image.Image);
                 using (var db = new Conexion())
                 {
-                    db.Insert(new Estudiante()
-                    {
-                        dni = listTexBox[0].Text,
-                        apellido = listTexBox[1].Text,
-                        nombre = listTexBox[2].Text,
-                        email = listTexBox[3].Text,
-                        image = imageArray
-                    });
+                    switch (accion)
+                {
+                    case "insertar":
+                            db.Insert(new Estudiante()
+                            {
+                                dni = listTexBox[0].Text,
+                                apellido = listTexBox[1].Text,
+                                nombre = listTexBox[2].Text,
+                                email = listTexBox[3].Text,
+                                image = imageArray
+                            });
+
+                            break;
+                        case "actualizar":
+                            var estudiante = db.FirstOrDefault(e => e.id == idEstudiante);
+                            if (estudiante != null)
+                            {
+                                estudiante.dni = listTexBox[0].Text;
+                                estudiante.apellido = listTexBox[1].Text;
+                                estudiante.nombre = listTexBox[2].Text;
+                                estudiante.email = listTexBox[3].Text;
+                                estudiante.image = imageArray;
+
+                                db.Update(estudiante);
+                            }
+                            break;
+
+                            //case "actualizar":
+
+                            //    db.Update(new Estudiante()
+                            //    {
+                            //        dni = listTexBox[0].Text,
+                            //        apellido = listTexBox[1].Text,
+                            //        nombre = listTexBox[2].Text,
+                            //        email = listTexBox[3].Text,
+                            //        image = imageArray
+                            //    });
+
+                            //    break;
+
+                    }
                     CommitTransaction();
                     Restablecer();
                 }
@@ -154,8 +196,10 @@ namespace Logica
                         c.apellido,
                         c.nombre,
                         c.email,
+                        c.image
                     }).Skip(inicio).Take(reg_por_pagina).ToList();
                     dataGridView.Columns[0].Visible = false;
+                    dataGridView.Columns[5].Visible = false;
                     dataGridView.Columns[1].DefaultCellStyle.BackColor = Color.WhiteSmoke;//le doy el color que quiero a la columa
                     dataGridView.Columns[3].DefaultCellStyle.BackColor = Color.WhiteSmoke;
                 }
@@ -173,6 +217,28 @@ namespace Logica
                 }
             }
         }
+        private int idEstudiante = 0;
+        public void GetEstudiante()
+        {
+            accion = "actualizar";
+            idEstudiante = Convert.ToInt16(dataGridView.CurrentRow.Cells[0].Value);
+            listTexBox[0].Text = Convert.ToString(dataGridView.CurrentRow.Cells[1].Value);
+            listTexBox[1].Text = Convert.ToString(dataGridView.CurrentRow.Cells[2].Value);
+            listTexBox[3].Text = Convert.ToString(dataGridView.CurrentRow.Cells[4].Value);
+            listTexBox[2].Text = Convert.ToString(dataGridView.CurrentRow.Cells[3].Value);
+            try
+            {
+                byte[] arrayImage = (byte[])dataGridView.CurrentRow.Cells[5].Value;
+                image.Image = uploadimage.byteArrayToImage(arrayImage);
+            }
+            catch (Exception)
+            {
+
+                image.Image=imagBitmap;
+            }
+        }
+
+
         private List<Estudiante> listEstudiante;
 
         public void Paginador(string metodo) 
@@ -210,6 +276,9 @@ namespace Logica
         private void Restablecer() {
             using (var db = new Conexion())
             {
+                accion = "insertar";
+                num_pagina = 1;
+                idEstudiante = 0;
                 image.Image = imagBitmap;
                 listlabel[0].Text = "Dni";
                 listlabel[1].Text = "Apellido";
