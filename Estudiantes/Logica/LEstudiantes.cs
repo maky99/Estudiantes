@@ -129,32 +129,15 @@ namespace Logica
 
                             break;
                         case "actualizar":
-                            var estudiante = db.FirstOrDefault(e => e.id == idEstudiante);
-                            if (estudiante != null)
-                            {
-                                estudiante.dni = listTexBox[0].Text;
-                                estudiante.apellido = listTexBox[1].Text;
-                                estudiante.nombre = listTexBox[2].Text;
-                                estudiante.email = listTexBox[3].Text;
-                                estudiante.image = imageArray;
-
-                                db.Update(estudiante);
-                            }
+                            var estudiantes = db.GetTable<Estudiante>();
+                            estudiantes.Where(u => u.id.Equals(idEstudiante))
+                                .Set(e => e.dni, listTexBox[0].Text)
+                                .Set(e => e.apellido, listTexBox[1].Text)
+                                .Set(e => e.nombre, listTexBox[2].Text)
+                                .Set(e => e.email, listTexBox[3].Text)
+                                .Set(e => e.image, imageArray)
+                                .Update();
                             break;
-
-                            //case "actualizar":
-
-                            //    db.Update(new Estudiante()
-                            //    {
-                            //        dni = listTexBox[0].Text,
-                            //        apellido = listTexBox[1].Text,
-                            //        nombre = listTexBox[2].Text,
-                            //        email = listTexBox[3].Text,
-                            //        image = imageArray
-                            //    });
-
-                            //    break;
-
                     }
                     CommitTransaction();
                     Restablecer();
@@ -273,7 +256,26 @@ namespace Logica
                 }
             }
         }
-        private void Restablecer() {
+        public void Eliminar()
+        {
+            if (idEstudiante.Equals(0))
+            {
+                MessageBox.Show("Es necesario Seleccionar un estudiante");
+            }
+            else
+            {
+                if (MessageBox.Show("Seguro que quiere eliminar ","Eliminar",MessageBoxButtons.YesNo)==DialogResult.Yes)
+                {
+                    using (var db = new Conexion())
+                    {
+                        var estudiantes = db.GetTable<Estudiante>();
+                        estudiantes.Where(u => u.id.Equals(idEstudiante)).Delete();
+                        Restablecer();
+                    }
+                }
+            }
+        }
+        public void Restablecer() {
             using (var db = new Conexion())
             {
                 accion = "insertar";

@@ -11,6 +11,7 @@ namespace Data
     public class Conexion : DataConnection
     {
         public Conexion() :  base("PDHN1") { }
+        public ITable<Estudiante> TEstudiante { get; set; }
 
         //public ITable<Estudiante> _Estudiante { get { return GetTable<estudiante>(); } }
     }

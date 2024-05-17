@@ -30,13 +30,8 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.buttonBorrar = new System.Windows.Forms.Button();
-            this.buttonAgregar = new System.Windows.Forms.Button();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBoxApellido = new System.Windows.Forms.TextBox();
             this.labelEmail = new System.Windows.Forms.Label();
@@ -46,7 +41,6 @@
             this.textBoxDni = new System.Windows.Forms.TextBox();
             this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.pictureBoxImagen = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.labelPaginas = new System.Windows.Forms.Label();
@@ -55,25 +49,30 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.buttonSig = new System.Windows.Forms.Button();
-            this.buttonAnt = new System.Windows.Forms.Button();
-            this.buttonFin = new System.Windows.Forms.Button();
-            this.buttonInicio = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.buttonSig = new System.Windows.Forms.Button();
+            this.buttonAnt = new System.Windows.Forms.Button();
+            this.buttonFin = new System.Windows.Forms.Button();
+            this.buttonInicio = new System.Windows.Forms.Button();
+            this.buttonCancelar = new System.Windows.Forms.Button();
+            this.buttonBorrar = new System.Windows.Forms.Button();
+            this.buttonAgregar = new System.Windows.Forms.Button();
+            this.pictureBoxImagen = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagen)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -88,16 +87,6 @@
             this.groupBox1.Size = new System.Drawing.Size(883, 87);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Estudiantes.Properties.Resources.estudiantes;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 68);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -117,8 +106,7 @@
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox2.BackColor = System.Drawing.Color.White;
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.buttonCancelar);
             this.groupBox2.Controls.Add(this.buttonBorrar);
             this.groupBox2.Controls.Add(this.buttonAgregar);
             this.groupBox2.Controls.Add(this.textBoxEmail);
@@ -137,71 +125,6 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_right_white_24dp;
-            this.button2.Location = new System.Drawing.Point(202, 252);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(46, 32);
-            this.button2.TabIndex = 16;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_left_white_24dp;
-            this.button1.Location = new System.Drawing.Point(150, 252);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(46, 32);
-            this.button1.TabIndex = 15;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // buttonBorrar
-            // 
-            this.buttonBorrar.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonBorrar.FlatAppearance.BorderSize = 0;
-            this.buttonBorrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonBorrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonBorrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonBorrar.Image = global::Estudiantes.Properties.Resources.outline_highlight_off_white_24dp;
-            this.buttonBorrar.Location = new System.Drawing.Point(89, 252);
-            this.buttonBorrar.Name = "buttonBorrar";
-            this.buttonBorrar.Size = new System.Drawing.Size(46, 32);
-            this.buttonBorrar.TabIndex = 6;
-            this.buttonBorrar.UseVisualStyleBackColor = false;
-            // 
-            // buttonAgregar
-            // 
-            this.buttonAgregar.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonAgregar.FlatAppearance.BorderSize = 0;
-            this.buttonAgregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAgregar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonAgregar.Image = global::Estudiantes.Properties.Resources.outline_perm_identity_white_24dp;
-            this.buttonAgregar.Location = new System.Drawing.Point(26, 252);
-            this.buttonAgregar.Name = "buttonAgregar";
-            this.buttonAgregar.Size = new System.Drawing.Size(46, 32);
-            this.buttonAgregar.TabIndex = 5;
-            this.buttonAgregar.UseVisualStyleBackColor = false;
-            this.buttonAgregar.Click += new System.EventHandler(this.buttonAgregar_Click);
             // 
             // textBoxEmail
             // 
@@ -296,19 +219,6 @@
             this.groupBox5.Size = new System.Drawing.Size(120, 94);
             this.groupBox5.TabIndex = 0;
             this.groupBox5.TabStop = false;
-            // 
-            // pictureBoxImagen
-            // 
-            this.pictureBoxImagen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxImagen.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxImagen.Image = global::Estudiantes.Properties.Resources.foto_perfil;
-            this.pictureBoxImagen.Location = new System.Drawing.Point(5, 10);
-            this.pictureBoxImagen.Name = "pictureBoxImagen";
-            this.pictureBoxImagen.Size = new System.Drawing.Size(110, 80);
-            this.pictureBoxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxImagen.TabIndex = 17;
-            this.pictureBoxImagen.TabStop = false;
-            this.pictureBoxImagen.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // label3
             // 
@@ -426,74 +336,6 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Inicio";
             // 
-            // buttonSig
-            // 
-            this.buttonSig.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonSig.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonSig.FlatAppearance.BorderSize = 0;
-            this.buttonSig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonSig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonSig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSig.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonSig.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_right_white_24dp;
-            this.buttonSig.Location = new System.Drawing.Point(287, 362);
-            this.buttonSig.Name = "buttonSig";
-            this.buttonSig.Size = new System.Drawing.Size(46, 32);
-            this.buttonSig.TabIndex = 20;
-            this.buttonSig.UseVisualStyleBackColor = false;
-            this.buttonSig.Click += new System.EventHandler(this.buttonSig_Click);
-            // 
-            // buttonAnt
-            // 
-            this.buttonAnt.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonAnt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonAnt.FlatAppearance.BorderSize = 0;
-            this.buttonAnt.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonAnt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonAnt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAnt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonAnt.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_left_white_24dp;
-            this.buttonAnt.Location = new System.Drawing.Point(235, 362);
-            this.buttonAnt.Name = "buttonAnt";
-            this.buttonAnt.Size = new System.Drawing.Size(46, 32);
-            this.buttonAnt.TabIndex = 19;
-            this.buttonAnt.UseVisualStyleBackColor = false;
-            this.buttonAnt.Click += new System.EventHandler(this.buttonAnt_Click);
-            // 
-            // buttonFin
-            // 
-            this.buttonFin.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonFin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonFin.FlatAppearance.BorderSize = 0;
-            this.buttonFin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonFin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonFin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonFin.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_right_white_24dp;
-            this.buttonFin.Location = new System.Drawing.Point(339, 362);
-            this.buttonFin.Name = "buttonFin";
-            this.buttonFin.Size = new System.Drawing.Size(46, 32);
-            this.buttonFin.TabIndex = 17;
-            this.buttonFin.UseVisualStyleBackColor = false;
-            this.buttonFin.Click += new System.EventHandler(this.buttonFin_Click);
-            // 
-            // buttonInicio
-            // 
-            this.buttonInicio.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonInicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonInicio.FlatAppearance.BorderSize = 0;
-            this.buttonInicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonInicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonInicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonInicio.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_left_white_24dp;
-            this.buttonInicio.Location = new System.Drawing.Point(183, 362);
-            this.buttonInicio.Name = "buttonInicio";
-            this.buttonInicio.Size = new System.Drawing.Size(46, 32);
-            this.buttonInicio.TabIndex = 16;
-            this.buttonInicio.UseVisualStyleBackColor = false;
-            this.buttonInicio.Click += new System.EventHandler(this.buttonInicio_Click);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -575,6 +417,148 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Buscar";
             // 
+            // buttonSig
+            // 
+            this.buttonSig.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonSig.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSig.FlatAppearance.BorderSize = 0;
+            this.buttonSig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonSig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonSig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSig.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonSig.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_right_white_24dp;
+            this.buttonSig.Location = new System.Drawing.Point(287, 362);
+            this.buttonSig.Name = "buttonSig";
+            this.buttonSig.Size = new System.Drawing.Size(46, 32);
+            this.buttonSig.TabIndex = 20;
+            this.buttonSig.UseVisualStyleBackColor = false;
+            this.buttonSig.Click += new System.EventHandler(this.buttonSig_Click);
+            // 
+            // buttonAnt
+            // 
+            this.buttonAnt.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonAnt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonAnt.FlatAppearance.BorderSize = 0;
+            this.buttonAnt.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonAnt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonAnt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAnt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonAnt.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_left_white_24dp;
+            this.buttonAnt.Location = new System.Drawing.Point(235, 362);
+            this.buttonAnt.Name = "buttonAnt";
+            this.buttonAnt.Size = new System.Drawing.Size(46, 32);
+            this.buttonAnt.TabIndex = 19;
+            this.buttonAnt.UseVisualStyleBackColor = false;
+            this.buttonAnt.Click += new System.EventHandler(this.buttonAnt_Click);
+            // 
+            // buttonFin
+            // 
+            this.buttonFin.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonFin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonFin.FlatAppearance.BorderSize = 0;
+            this.buttonFin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonFin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonFin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonFin.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_right_white_24dp;
+            this.buttonFin.Location = new System.Drawing.Point(339, 362);
+            this.buttonFin.Name = "buttonFin";
+            this.buttonFin.Size = new System.Drawing.Size(46, 32);
+            this.buttonFin.TabIndex = 17;
+            this.buttonFin.UseVisualStyleBackColor = false;
+            this.buttonFin.Click += new System.EventHandler(this.buttonFin_Click);
+            // 
+            // buttonInicio
+            // 
+            this.buttonInicio.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonInicio.FlatAppearance.BorderSize = 0;
+            this.buttonInicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonInicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonInicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonInicio.Image = global::Estudiantes.Properties.Resources.outline_keyboard_arrow_left_white_24dp;
+            this.buttonInicio.Location = new System.Drawing.Point(183, 362);
+            this.buttonInicio.Name = "buttonInicio";
+            this.buttonInicio.Size = new System.Drawing.Size(46, 32);
+            this.buttonInicio.TabIndex = 16;
+            this.buttonInicio.UseVisualStyleBackColor = false;
+            this.buttonInicio.Click += new System.EventHandler(this.buttonInicio_Click);
+            // 
+            // buttonCancelar
+            // 
+            this.buttonCancelar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCancelar.FlatAppearance.BorderSize = 0;
+            this.buttonCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCancelar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonCancelar.Image = global::Estudiantes.Properties.Resources.history_20dp1;
+            this.buttonCancelar.Location = new System.Drawing.Point(210, 252);
+            this.buttonCancelar.Name = "buttonCancelar";
+            this.buttonCancelar.Size = new System.Drawing.Size(50, 50);
+            this.buttonCancelar.TabIndex = 15;
+            this.buttonCancelar.UseVisualStyleBackColor = false;
+            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
+            // 
+            // buttonBorrar
+            // 
+            this.buttonBorrar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonBorrar.FlatAppearance.BorderSize = 0;
+            this.buttonBorrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonBorrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonBorrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonBorrar.Image = global::Estudiantes.Properties.Resources.outline_highlight_off_white_24dp;
+            this.buttonBorrar.Location = new System.Drawing.Point(125, 252);
+            this.buttonBorrar.Name = "buttonBorrar";
+            this.buttonBorrar.Size = new System.Drawing.Size(50, 50);
+            this.buttonBorrar.TabIndex = 6;
+            this.buttonBorrar.UseVisualStyleBackColor = false;
+            this.buttonBorrar.Click += new System.EventHandler(this.buttonBorrar_Click);
+            // 
+            // buttonAgregar
+            // 
+            this.buttonAgregar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonAgregar.FlatAppearance.BorderSize = 0;
+            this.buttonAgregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAgregar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonAgregar.Image = global::Estudiantes.Properties.Resources.outline_perm_identity_white_24dp;
+            this.buttonAgregar.Location = new System.Drawing.Point(41, 252);
+            this.buttonAgregar.Name = "buttonAgregar";
+            this.buttonAgregar.Size = new System.Drawing.Size(50, 50);
+            this.buttonAgregar.TabIndex = 5;
+            this.buttonAgregar.UseVisualStyleBackColor = false;
+            this.buttonAgregar.Click += new System.EventHandler(this.buttonAgregar_Click);
+            // 
+            // pictureBoxImagen
+            // 
+            this.pictureBoxImagen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxImagen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxImagen.Image = global::Estudiantes.Properties.Resources.foto_perfil;
+            this.pictureBoxImagen.Location = new System.Drawing.Point(5, 10);
+            this.pictureBoxImagen.Name = "pictureBoxImagen";
+            this.pictureBoxImagen.Size = new System.Drawing.Size(110, 80);
+            this.pictureBoxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxImagen.TabIndex = 17;
+            this.pictureBoxImagen.TabStop = false;
+            this.pictureBoxImagen.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Estudiantes.Properties.Resources.estudiantes;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(149, 68);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -593,17 +577,17 @@
             this.Text = "Sistema de estudiantes";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagen)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -630,8 +614,7 @@
         private System.Windows.Forms.Label labelEmail;
         private System.Windows.Forms.Button buttonAgregar;
         private System.Windows.Forms.Button buttonBorrar;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.PictureBox pictureBoxImagen;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dataGridView1;

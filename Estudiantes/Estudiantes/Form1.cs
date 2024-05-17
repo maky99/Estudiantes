@@ -192,5 +192,15 @@ namespace Estudiantes
                 estudiante.GetEstudiante();
 
         }
+
+        private void buttonCancelar_Click(object sender, EventArgs e)
+        {
+            estudiante.Restablecer();
+        }
+
+        private void buttonBorrar_Click(object sender, EventArgs e)
+        {
+            estudiante.Eliminar();
+        }
     }
 }

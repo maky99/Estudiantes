@@ -166,5 +166,14 @@
       <Name>Logica</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history_20dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history_20dp1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
